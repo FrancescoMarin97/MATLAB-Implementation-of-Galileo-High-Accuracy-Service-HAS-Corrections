@@ -88,7 +88,7 @@ Key functions used within the processing pipeline:
 
 * Developed by Francesco Marin
 * Postgraduate Researcher — University of Padova
-* Period: March 2022 – March 2024
+* Period: January 2022 – June 2024
 
 # Galileo-HAS-MATLAB — RINEX Code Bias Correction Module (HAS-CodeBias)
 
@@ -161,11 +161,11 @@ Function responsible for:
 * Managing observation fields and corrected values
 
 ## Usage Notes
-Input data must follow expected naming conventions (RINEX, HAS CSV, etc.)
-HAS corrections must be pre-decoded (e.g., using GHASP)
-Only code bias corrections are applied in this module
-Output RINEX files are renamed to distinguish HAS-corrected data
-The workflow assumes familiarity with GNSS data structures and formats
+* Input data must follow expected naming conventions (RINEX, HAS CSV, etc.)
+* HAS corrections must be pre-decoded (e.g., using GHASP)
+* Only code bias corrections are applied in this module
+* Output RINEX files are renamed to distinguish HAS-corrected data
+* The workflow assumes familiarity with GNSS data structures and formats
 
 ## Limitations
 The current implementation is validated but not fully optimized for external users
@@ -178,4 +178,4 @@ Code structure can be further modularized and simplified
 
 * Developed by Francesco Marin
 * Postgraduate Researcher — University of Padova
-* Period: March 2022 – March 2024
+* Period: January 2022 – June 2024
